@@ -1,0 +1,50 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Core
+appsettings.*.json
+appsettings.Development.json
+secrets.json
+
+## VS Code
+.vs/
+
+
+## Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Logs
+*.log
+
+## NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+## Entity Framework
+Migrations/
+
+## Publish results
+publish/
+*.dbmdl
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Others
+*.swp
+*.bak
+*.tmp
