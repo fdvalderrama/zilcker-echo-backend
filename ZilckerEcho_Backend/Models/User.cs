@@ -26,5 +26,7 @@ namespace ZilckerEcho_Backend.Models
         [Required]
         [StringLength(10, ErrorMessage = "Birthdate cannot be longer than 10 characters.")]
         public string Birthdate { get; set; }
+        [StringLength(20, ErrorMessage = "Role cannot be longer than 20 characters.")]
+        public string? Role { get; set; }
     }
 }
