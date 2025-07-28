@@ -18,7 +18,7 @@ builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowZilckerEchoFront",
-        builder => builder.WithOrigins("http://192.168.1.69:5173", "http://localhost:5173")
+        builder => builder.WithOrigins("http://192.168.1.72:5173", "http://localhost:5173")
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });
